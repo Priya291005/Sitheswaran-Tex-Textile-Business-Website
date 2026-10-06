@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+
+  h1, h2, h3, h4, .font-serif {
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+}
+
+.font-brand {
+  font-family: 'Cinzel', Georgia, serif;
+}
+
+/* Subtle textile grain pattern overlay */
+.bg-weave-subtle {
+  background-color: #FAF8F5;
+  background-image: radial-gradient(rgba(179, 133, 72, 0.07) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+/* Thread divider line */
+.thread-divider {
+  background-image: repeating-linear-gradient(90deg, #D4AF37 0px, #D4AF37 8px, transparent 8px, transparent 14px);
+  height: 1px;
+}
